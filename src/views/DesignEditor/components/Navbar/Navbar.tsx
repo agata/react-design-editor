@@ -266,8 +266,9 @@ const Navbar = () => {
           <Logo size={36} />
         </div>
         {/* <DesignTitle /> */}
+        <div></div>
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
-          {/* <input
+          <input
             multiple={false}
             onChange={handleFileInput}
             type="file"
@@ -287,7 +288,7 @@ const Navbar = () => {
               },
             }}
           >
-            Import
+            インポート
           </Button>
 
           <Button
@@ -302,7 +303,7 @@ const Navbar = () => {
               },
             }}
           >
-            Export
+            エクスポート
           </Button>
           <Button
             size="compact"
@@ -319,7 +320,7 @@ const Navbar = () => {
             <Play size={24} />
           </Button>
 
-          <Button
+          {/* <Button
             size="compact"
             onClick={() => window.location.replace("https://github.com/layerhub-io/react-design-editor")}
             kind={KIND.tertiary}
