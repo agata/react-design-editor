@@ -55,7 +55,7 @@ const Opacity = () => {
     content={() => (
       <Block width={"200px"} backgroundColor={"#ffffff"} padding={"20px"}>
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-          <Block $style={{ fontSize: "14px" }}>Opacity</Block>
+          <Block $style={{ fontSize: "14px" }}>不透明度</Block>
           <Block width={"52px"}></Block>
         </Block>
 
@@ -123,7 +123,7 @@ const Opacity = () => {
     )}
   >
     <Block>
-      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType={"tooltip"} content="Opacity">
+      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType={"tooltip"} content="不透明度">
         <Button kind={KIND.tertiary} size={SIZE.mini}>
           <OpacityIcon size={24} />
         </Button>

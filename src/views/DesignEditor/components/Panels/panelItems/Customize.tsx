@@ -51,7 +51,7 @@ const Customize = () => {
           padding: "1.5rem",
         }}
       >
-        <Block>Customize</Block>
+        <Block>図の設定</Block>
 
         <Block onClick={() => setIsSidebarOpen(false)} $style={{ cursor: "pointer", display: "flex" }}>
           <AngleDoubleLeft size={18} />
@@ -74,7 +74,7 @@ const Customize = () => {
                 fontSize: "14px",
               }}
             >
-              <div>Background color</div>
+              <div>背景色</div>
               <div
                 style={{
                   display: "grid",
@@ -224,7 +224,7 @@ const ResizeTemplate = () => {
           },
         }}
       >
-        Resize template
+        キャンバスサイズ変更
       </Button>
       <Modal
         onClose={() => setIsOpen(false)}
@@ -254,7 +254,7 @@ const ResizeTemplate = () => {
               fontWeight: 500,
             }}
           >
-            Choose a format and resize your template.
+            フォーマットを選択し、キャンバスのサイズを変更します。
           </Block>
           <Tabs
             overrides={{
@@ -278,7 +278,7 @@ const ResizeTemplate = () => {
               setActiveKey(activeKey)
             }}
           >
-            <Tab title="Preset size">
+            <Tab title="プリセット">
               <Block $style={{ width: "100%", height: "400px" }}>
                 <Scrollbar>
                   <Block $style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr" }}>
@@ -317,7 +317,7 @@ const ResizeTemplate = () => {
                 </Scrollbar>
               </Block>
             </Tab>
-            <Tab title="Custom size">
+            <Tab title="カスタム">
               <Block $style={{ padding: "2rem 2rem" }}>
                 <Block
                   $style={{ display: "grid", gridTemplateColumns: "1fr 50px 1fr", alignItems: "end", fontSize: "14px" }}
@@ -354,7 +354,7 @@ const ResizeTemplate = () => {
         </Block>
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "center", paddingBottom: "2rem" }}>
           <Button disabled={!isEnabled} onClick={applyResize} style={{ width: "190px" }}>
-            Resize template
+            サイズを変更
           </Button>
         </Block>
       </Modal>

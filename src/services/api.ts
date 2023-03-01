@@ -1,6 +1,8 @@
 import axios, { AxiosInstance } from "axios"
+import { SAMPLE_FONTS } from "~/constants/editor"
 import { IDesign, IComponent } from "~/interfaces/DesignEditor"
 import { Resource } from "~/interfaces/editor"
+import { fonts } from "~/views/DesignEditor/utils/fonts"
 
 type IElement = any
 type IFontFamily = any
@@ -255,8 +257,9 @@ class ApiService {
   getFonts(): Promise<IFontFamily[]> {
     return new Promise(async (resolve, reject) => {
       try {
-        const { data } = await this.base.get("/fonts")
-        resolve(data.fonts) 
+        // const { data } = await this.base.get("/fonts")
+        // resolve(data.fonts) 
+        resolve(fonts.fonts);
       } catch (err) {
         reject(err)
       }

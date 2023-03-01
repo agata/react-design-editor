@@ -97,7 +97,7 @@ export default function () {
           padding: "1.5rem",
         }}
       >
-        <Block>Select a font</Block>
+        <Block>フォントを選択</Block>
 
         <Block onClick={() => setActiveSubMenu("")} $style={{ cursor: "pointer", display: "flex" }}>
           <Delete size={24} />

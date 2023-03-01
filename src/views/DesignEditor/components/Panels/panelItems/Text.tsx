@@ -160,7 +160,7 @@ export default function () {
           padding: "1.5rem",
         }}
       >
-        <Block>Text</Block>
+        <Block>テキスト</Block>
 
         <Block onClick={() => setIsSidebarOpen(false)} $style={{ cursor: "pointer", display: "flex" }}>
           <AngleDoubleLeft size={18} />
@@ -179,7 +179,7 @@ export default function () {
               },
             }}
           >
-            Add text
+            テキストを追加
           </Button>
 
           <Block

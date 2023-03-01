@@ -1,16 +1,16 @@
 {
     "panels": {
         "panelsList": {
-            "templates": "Templates",
-            "customize": "Customize",
-            "elements": "Elements",
-            "images": "Images",
+            "templates": "テンプレート",
+            "customize": "図の設定",
+            "elements": "パーツ",
+            "images": "写真",
             "videos": "Videos",
-            "uploads": "Uploads",
-            "text": "Text",
-            "graphics": "Graphics",
+            "uploads": "画像",
+            "text": "テキスト",
+            "graphics": "グラフィック",
             "pixabay": "Pixabay",
-            "layers": "Layers"
+            "layers": "レイヤー"
         }
     }
 }

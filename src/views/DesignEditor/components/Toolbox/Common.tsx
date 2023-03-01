@@ -80,12 +80,12 @@ const Common = () => {
       <CommonAlign />
       <Opacity />
       <LockUnlock />
-      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Duplicate">
+      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="複製">
         <Button onClick={() => editor.objects.clone()} size={SIZE.mini} kind={KIND.tertiary}>
           <DuplicateIcon size={22} />
         </Button>
       </StatefulTooltip>
-      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Delete">
+      <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="削除">
         <Button onClick={() => editor.objects.remove()} size={SIZE.mini} kind={KIND.tertiary}>
           <DeleteIcon size={24} />
         </Button>
@@ -117,7 +117,7 @@ const CommonLayers = () => {
               kind={KIND.tertiary}
               size={SIZE.mini}
             >
-              Bring to front
+              前面へ
             </Button>
             <Button
               startEnhancer={<SendToBack size={24} />}
@@ -125,11 +125,11 @@ const CommonLayers = () => {
               kind={KIND.tertiary}
               size={SIZE.mini}
             >
-              Send to back
+              背面へ
             </Button>
           </Block>
 
-          <Block
+          {/* <Block
             $style={{
               display: "flex",
               fontSize: "12px",
@@ -160,14 +160,14 @@ const CommonLayers = () => {
               }}
             />
             <Block>Clip to frame</Block>
-          </Block>
+          </Block> */}
         </Block>
       )}
       returnFocus
       autoFocus
     >
       <Block>
-        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Layers">
+        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="順序">
           <Button size={SIZE.mini} kind={KIND.tertiary}>
             <LayersIcon size={19} />
           </Button>
@@ -208,7 +208,7 @@ const CommonAlign = () => {
       autoFocus
     >
       <Block>
-        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Align">
+        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="位置揃え">
           <Button size={SIZE.mini} kind={KIND.tertiary}>
             <AlignCenter size={24} />
           </Button>
@@ -231,7 +231,7 @@ const LockUnlock = () => {
   }, [activeObject])
 
   return state.locked ? (
-    <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Lock">
+    <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="ロック">
       <Button
         onClick={() => {
           editor.objects.unlock()
@@ -244,7 +244,7 @@ const LockUnlock = () => {
       </Button>
     </StatefulTooltip>
   ) : (
-    <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Lock">
+    <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="ロック">
       <Button
         onClick={() => {
           editor.objects.lock()

@@ -64,7 +64,7 @@ export default function () {
             padding: "1.5rem",
           }}
         >
-          <Block>Uploads</Block>
+          <Block>画像のアップロード</Block>
 
           <Block onClick={() => setIsSidebarOpen(false)} $style={{ cursor: "pointer", display: "flex" }}>
             <AngleDoubleLeft size={18} />
@@ -83,7 +83,7 @@ export default function () {
                 },
               }}
             >
-              Computer
+              ファイルを選択
             </Button>
             <input onChange={handleFileInput} type="file" id="file" ref={inputFileRef} style={{ display: "none" }} />
 

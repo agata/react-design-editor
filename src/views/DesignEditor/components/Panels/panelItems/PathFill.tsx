@@ -45,7 +45,7 @@ const PathFill = () => {
           padding: "1.5rem",
         }}
       >
-        <Block>Path Fill</Block>
+        <Block>塗りの色</Block>
 
         <Block $style={{ cursor: "pointer", display: "flex" }}>
           <Delete size={24} />

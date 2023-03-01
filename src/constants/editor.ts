@@ -3538,7 +3538,7 @@ export const textComponents = [textComponent1, textComponent2]
 export const sampleFrames = [
   {
     id: 1,
-    name: "Presentation (4:3)",
+    name: "プレゼンテーション (4:3)",
     width: 1024,
     height: 768,
     unit: "px",
@@ -3546,7 +3546,7 @@ export const sampleFrames = [
   },
   {
     id: 2,
-    name: "Presentation (16:9)",
+    name: "プレゼンテーション (16:9)",
     width: 1920,
     height: 1080,
     unit: "px",
@@ -3554,7 +3554,7 @@ export const sampleFrames = [
   },
   {
     id: 3,
-    name: "Social Media Story",
+    name: "SNS ストーリー",
     width: 1080,
     height: 1920,
     unit: "px",
@@ -3562,7 +3562,7 @@ export const sampleFrames = [
   },
   {
     id: 4,
-    name: "Instagram Post",
+    name: "Instagram ポスト",
     width: 1080,
     height: 1080,
     unit: "px",
@@ -3570,7 +3570,7 @@ export const sampleFrames = [
   },
   {
     id: 5,
-    name: "Facebook Post",
+    name: "Facebook ポスト",
     width: 1200,
     height: 1200,
     unit: "px",
@@ -3578,7 +3578,7 @@ export const sampleFrames = [
   },
   {
     id: 6,
-    name: "Facebook Cover / Page Cover",
+    name: "Facebook カバー / ページカバー",
     width: 1702,
     height: 630,
     unit: "px",
@@ -3586,7 +3586,7 @@ export const sampleFrames = [
   },
   {
     id: 7,
-    name: "Facebook Event Cover",
+    name: "Facebook イベントカバー",
     width: 1920,
     height: 1080,
     unit: "px",
@@ -3594,7 +3594,7 @@ export const sampleFrames = [
   },
   {
     id: 8,
-    name: "YouTube Channel Art",
+    name: "YouTube チャンネルアート",
     width: 2560,
     height: 1440,
     unit: "px",
@@ -3602,7 +3602,7 @@ export const sampleFrames = [
   },
   {
     id: 9,
-    name: "YouTube Thumbnail",
+    name: "YouTube サムネイル",
     width: 1280,
     height: 720,
     unit: "px",
@@ -3610,7 +3610,7 @@ export const sampleFrames = [
   },
   {
     id: 10,
-    name: "Twitter Post",
+    name: "Twitter ポスト",
     width: 1200,
     height: 675,
     unit: "px",

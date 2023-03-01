@@ -265,9 +265,9 @@ const Navbar = () => {
         <div style={{ color: "#ffffff" }}>
           <Logo size={36} />
         </div>
-        <DesignTitle />
+        {/* <DesignTitle /> */}
         <Block $style={{ display: "flex", alignItems: "center", justifyContent: "flex-end" }}>
-          <input
+          {/* <input
             multiple={false}
             onChange={handleFileInput}
             type="file"
@@ -334,7 +334,7 @@ const Navbar = () => {
             kind={KIND.primary}
           >
             Try PRO
-          </Button>
+          </Button> */}
         </Block>
       </Container>
     </ThemeProvider>

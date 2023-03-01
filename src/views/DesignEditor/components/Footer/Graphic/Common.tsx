@@ -67,9 +67,9 @@ const Common = () => {
   return (
     <Container>
       <div>
-        <Button kind={KIND.tertiary} size={SIZE.compact}>
+        {/* <Button kind={KIND.tertiary} size={SIZE.compact}>
           <Icons.Layers size={20} />
-        </Button>
+        </Button> */}
       </div>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
         <Button kind={KIND.tertiary} size={SIZE.compact}>
@@ -173,7 +173,7 @@ const Common = () => {
         />
       </div>
       <div style={{ display: "flex", alignItems: "center", justifyContent: "end" }}>
-        <Button kind={KIND.tertiary} size={SIZE.compact}>
+        {/* <Button kind={KIND.tertiary} size={SIZE.compact}>
           <Icons.Refresh size={16} />
         </Button>
         <Button kind={KIND.tertiary} size={SIZE.compact}>
@@ -184,7 +184,7 @@ const Common = () => {
         </Button>
         <Button kind={KIND.tertiary} size={SIZE.compact}>
           <Icons.TimePast size={16} />
-        </Button>
+        </Button> */}
       </div>
     </Container>
   )

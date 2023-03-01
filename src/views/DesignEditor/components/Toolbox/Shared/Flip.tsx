@@ -44,7 +44,7 @@ const Flip = () => {
               kind={KIND.tertiary}
               size={SIZE.mini}
             >
-              Flip horizontally
+              水平に反転
             </Button>
           </Block>
           <Button
@@ -54,15 +54,15 @@ const Flip = () => {
             kind={KIND.tertiary}
             size={SIZE.mini}
           >
-            Flip vertically
+            垂直に変形
           </Button>
         </Block>
       )}
     >
       <Block>
-        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="Layers">
+        <StatefulTooltip placement={PLACEMENT.bottom} showArrow={true} accessibilityType="tooltip" content="変形">
           <Button size={SIZE.compact} kind={KIND.tertiary}>
-            Flip
+            変形
           </Button>
         </StatefulTooltip>
       </Block>

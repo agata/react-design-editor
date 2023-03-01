@@ -99,7 +99,7 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Duplicate"
-            label="copy"
+            label="コピー"
           >
             <Duplicate size={24} />
           </ContextMenuItem>
@@ -109,7 +109,7 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Paste"
-            label="paste"
+            label="貼り付け"
           >
             <Paste size={24} />
           </ContextMenuItem>
@@ -119,7 +119,7 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Delete"
-            label="delete"
+            label="削除"
           >
             <Delete size={24} />
           </ContextMenuItem>
@@ -130,7 +130,7 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Forward"
-            label="bring forward"
+            label="前面へ"
           >
             <BringToFront size={24} />
           </ContextMenuItem>
@@ -140,11 +140,11 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Backward"
-            label="send backward"
+            label="背面へ"
           >
             <SendToBack size={24} />
           </ContextMenuItem>
-          <ContextMenuItem
+          {/* <ContextMenuItem
             onClick={() => {
               handleAsComponentHandler()
               editor.cancelContextMenuRequest()
@@ -153,7 +153,7 @@ const ContextMenu = () => {
             label="Save as component"
           >
             <Elements size={24} />
-          </ContextMenuItem>
+          </ContextMenuItem> */}
           <div style={{ margin: "0.5rem 0" }} />
           <ContextMenuItem
             onClick={() => {
@@ -161,7 +161,7 @@ const ContextMenu = () => {
               editor.cancelContextMenuRequest()
             }}
             icon="Locked"
-            label="lock"
+            label="ロック"
           >
             <Locked size={24} />
           </ContextMenuItem>
